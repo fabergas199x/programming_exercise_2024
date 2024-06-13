@@ -2,6 +2,7 @@ import unittest
 
 from func.phone_price import get_cheapest_operator
 
+
 class TestGetCheapestPrice(unittest.TestCase):
     def test_with_case_return_value(self):
         operator_prices = {
